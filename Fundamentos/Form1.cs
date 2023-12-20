@@ -29,7 +29,11 @@ namespace Fundamentos
             //PONGAMOS QUE DESEAMOS ALINEAR EL TEXTO DE UNA CAJA
             this.txtNombre.TextAlign = HorizontalAlignment.Right;
             this.txtNombre.Text = "Hola mundo";
-            
+
+            int mayor = 888;
+            short pequeño = (short)mayor;
+
+
 
 
         }
