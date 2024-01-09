@@ -16,6 +16,12 @@ namespace Fundamentos
         public Form09ValidarDni()
         {
             InitializeComponent();
+            int[] numeros = new int[] { 1, 4, 6, 7 };
+            int sumaArray = 0;
+            foreach (int num in numeros)
+            {
+                sumaArray += num;
+            }
         }
 
         private void btnValidarDni_Click(object sender, EventArgs e)
